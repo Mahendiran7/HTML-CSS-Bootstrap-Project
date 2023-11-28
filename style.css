@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px  rgba(0,0,0, .5);
+    background-color: black;
+}
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color:#e7f700 !important;
+}
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #e7f700 ;
+
+}
+#navbarSupportedContent button{
+    background: #e7f700;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background:linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .4)) ,url(backround.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+}
+#home p{
+    font-size: 18px;
+    color: white;
+
+}
+#home .input-group{
+    width: 40%;
+    height: 35px;
+}
+.signin{
+    background: #e7f700 !important;
+    color: black !important;
+    box-shadow: 2px 4px 5px rgba;
+}
+
+#about img{
+    height: 70%;
+    margin-top: 7%;
+    background-color: whitesmoke;
+    margin-top: 75px;
+    margin-bottom: 0%;
+    margin-left: 12%;
+}
+#product{
+    background: #797777;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    
+}
+.card{
+    width: 250px;
+    height: 350px;
+   border: none !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 60px;
+    
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgb(85, 83, 83),
+                inset -4px -4px 10px  rgb(85, 83, 83) ;
+                transition: .2s;
+}               
+
+#contact img{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: inset 10px 10px 1px rgb(199, 201, 199),
+                inset 1px 1px 10px rgb(212, 210, 207);
+    margin-top: 13%;            
+               
+
+}
+
+.box{
+    width: 80% !important;
+    background: #888f23;
+    margin-top: 10px;
+    height: 500px;
+}
+.vertical{
+    align-items: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contact input{
+    margin: 8px 0px;
+}
+#contact textarea{
+    margin: 8px 0px;
+}
